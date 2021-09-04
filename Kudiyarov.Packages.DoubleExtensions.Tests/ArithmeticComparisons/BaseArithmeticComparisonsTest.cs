@@ -1,4 +1,4 @@
-using Kudiyarov.DoubleExtensions.Constants;
+using Kudiyarov.Packages.DoubleExtensions.Common;
 
 namespace Kudiyarov.Packages.DoubleExtensions.Tests.ArithmeticComparisons
 {

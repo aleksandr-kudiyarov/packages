@@ -6,6 +6,7 @@
 
     <ItemGroup>
         <ProjectReference Include="..\Kudiyarov.DoubleExtensions.Constants\Kudiyarov.DoubleExtensions.Constants.csproj"/>
+        <ProjectReference Include="..\Kudiyarov.Packages.DoubleExtensions.Common\Kudiyarov.Packages.DoubleExtensions.Common.csproj"/>
     </ItemGroup>
 
 </Project>
