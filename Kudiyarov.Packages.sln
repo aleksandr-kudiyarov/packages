@@ -1,8 +1,5 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kudiyarov.Packages.DoubleExtensions", "Kudiyarov.Packages.DoubleExtensions\Kudiyarov.Packages.DoubleExtensions.csproj", "{C91A7829-A5D7-4107-914F-065DB5B88C03}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DoubleExtensions", "DoubleExtensions", "{1832ADEB-86A8-43E3-8E40-5CC05D2CF5ED}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kudiyarov.Packages.DoubleExtensions.Tests", "Kudiyarov.Packages.DoubleExtensions.Tests\Kudiyarov.Packages.DoubleExtensions.Tests.csproj", "{5899890E-F823-4D22-B796-3A1C559BCE34}"
 EndProject
