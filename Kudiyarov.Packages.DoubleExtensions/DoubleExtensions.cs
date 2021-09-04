@@ -18,6 +18,13 @@ namespace Kudiyarov.Packages.DoubleExtensions
             var result = !LessThanTolerance(diff) && diff < 0;
             return result;
         }
+        
+        public static bool LessThanOrEqual(this double x, double y)
+        {
+            var diff = x - y;
+            var result = LessThanTolerance(diff) || diff < 0;
+            return result;
+        }
 
         public static bool MoreThan(this double x, double y)
         {
