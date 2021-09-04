@@ -11,7 +11,7 @@ namespace Kudiyarov.Packages.DoubleExtensions.Tests.ArithmeticComparisons
             var result = Add.Equal(Multiply);
             Assert.True(result);
         }
-        
+
         [Theory]
         [InlineData(Constants.Tolerance)]
         [InlineData(-Constants.Tolerance)]

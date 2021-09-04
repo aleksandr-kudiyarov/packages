@@ -11,21 +11,21 @@ namespace Kudiyarov.Packages.DoubleExtensions.Tests.ArithmeticComparisons
             var result = Zero.LessThan(Constants.Tolerance);
             Assert.True(result);
         }
-        
+
         [Fact]
         public void ToleranceLessThanZero()
         {
             var result = Constants.Tolerance.LessThan(Zero);
             Assert.False(result);
         }
-        
+
         [Fact]
         public void AddLessThanMultiply()
         {
             var result = Add.LessThan(Multiply);
             Assert.False(result);
         }
-        
+
         [Fact]
         public void MultiplyLessThanAdd()
         {
