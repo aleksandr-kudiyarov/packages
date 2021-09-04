@@ -15,7 +15,7 @@ namespace Kudiyarov.Packages.DoubleExtensions.Tests
         [Theory]
         [InlineData(Constants.Tolerance)]
         [InlineData(-Constants.Tolerance)]
-        public void ToleranceNotEqualZero(double tolerance)
+        public void ToleranceEqualZero(double tolerance)
         {
             const double zero = 0;
             var result = zero.Equal(tolerance);

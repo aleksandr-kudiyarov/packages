@@ -13,7 +13,7 @@ namespace Kudiyarov.Packages.DoubleExtensions.Tests
         }
         
         [Fact]
-        public void ToleranceNotLessThanOrEqualZero()
+        public void ToleranceLessThanOrEqualZero()
         {
             var result = Constants.Tolerance.LessThanOrEqual(Zero);
             Assert.False(result);

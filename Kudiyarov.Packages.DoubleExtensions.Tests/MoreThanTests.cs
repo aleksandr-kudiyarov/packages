@@ -13,21 +13,21 @@ namespace Kudiyarov.Packages.DoubleExtensions.Tests
         }
         
         [Fact]
-        public void ZeroNotMoreThanTolerance()
+        public void ZeroMoreThanTolerance()
         {
             var result = Zero.MoreThan(Constants.Tolerance);
             Assert.False(result);
         }
         
         [Fact]
-        public void AddNotMoreThanMultiply()
+        public void AddMoreThanMultiply()
         {
             var result = Add.MoreThan(Multiply);
             Assert.False(result);
         }
         
         [Fact]
-        public void MultiplyNotMoreThanAdd()
+        public void MultiplyMoreThanAdd()
         {
             var result = Multiply.MoreThan(Add);
             Assert.False(result);
