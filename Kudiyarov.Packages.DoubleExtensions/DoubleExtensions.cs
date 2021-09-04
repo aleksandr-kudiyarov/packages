@@ -32,6 +32,13 @@ namespace Kudiyarov.Packages.DoubleExtensions
             var result = !LessThanTolerance(diff) && diff > 0;
             return result;
         }
+        
+        public static bool MoreThanOrEqual(this double x, double y)
+        {
+            var diff = x - y;
+            var result = LessThanTolerance(diff) || diff > 0;
+            return result;
+        }
 
         public static double RoundTo(this double value, double factor)
         {
