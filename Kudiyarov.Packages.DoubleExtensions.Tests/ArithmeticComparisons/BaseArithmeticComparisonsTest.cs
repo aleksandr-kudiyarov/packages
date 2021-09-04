@@ -1,12 +1,12 @@
-namespace Kudiyarov.Packages.DoubleExtensions.Tests
+namespace Kudiyarov.Packages.DoubleExtensions.Tests.ArithmeticComparisons
 {
-    public abstract class BaseDoubleExtensionsTest
+    public abstract class BaseArithmeticComparisonsTest
     {
         protected const double Zero = 0;
         protected readonly double Add;
         protected readonly double Multiply;
 
-        protected BaseDoubleExtensionsTest()
+        protected BaseArithmeticComparisonsTest()
         {
             Add = GetAddResult();
             Multiply = GetMultiplyResult();

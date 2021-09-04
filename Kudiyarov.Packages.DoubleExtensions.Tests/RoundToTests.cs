@@ -1,8 +1,9 @@
-﻿using Xunit;
+﻿using Kudiyarov.Packages.DoubleExtensions.Tests.ArithmeticComparisons;
+using Xunit;
 
 namespace Kudiyarov.Packages.DoubleExtensions.Tests
 {
-    public class RoundToTests : BaseDoubleExtensionsTest
+    public class RoundToTests : BaseArithmeticComparisonsTest
     {
         [Theory]
         [InlineData(1, 2.5, 0)]

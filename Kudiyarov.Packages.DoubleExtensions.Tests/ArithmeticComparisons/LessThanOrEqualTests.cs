@@ -1,9 +1,9 @@
 ﻿using Kudiyarov.DoubleExtensions.Constants;
 using Xunit;
 
-namespace Kudiyarov.Packages.DoubleExtensions.Tests
+namespace Kudiyarov.Packages.DoubleExtensions.Tests.ArithmeticComparisons
 {
-    public class LessThanOrEqualTests : BaseDoubleExtensionsTest
+    public class LessThanOrEqualTests : BaseArithmeticComparisonsTest
     {
         [Fact]
         public void ZeroLessThanOrEqualTolerance()
