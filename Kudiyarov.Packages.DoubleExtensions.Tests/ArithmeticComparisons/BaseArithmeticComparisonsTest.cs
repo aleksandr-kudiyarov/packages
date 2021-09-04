@@ -1,7 +1,10 @@
+using Kudiyarov.DoubleExtensions.Constants;
+
 namespace Kudiyarov.Packages.DoubleExtensions.Tests.ArithmeticComparisons
 {
     public abstract class BaseArithmeticComparisonsTest
     {
+        protected const double Tolerance = Constants.Tolerance;
         protected const double Zero = 0;
         protected readonly double Add;
         protected readonly double Multiply;

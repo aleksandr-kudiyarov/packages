@@ -1,5 +1,4 @@
-﻿using Kudiyarov.DoubleExtensions.Constants;
-using Xunit;
+﻿using Xunit;
 
 namespace Kudiyarov.Packages.DoubleExtensions.Tests.ArithmeticComparisons
 {
@@ -8,14 +7,14 @@ namespace Kudiyarov.Packages.DoubleExtensions.Tests.ArithmeticComparisons
         [Fact]
         public void ToleranceMoreThanZero()
         {
-            var result = Constants.Tolerance.MoreThan(Zero);
+            var result = Tolerance.MoreThan(Zero);
             Assert.True(result);
         }
 
         [Fact]
         public void ZeroMoreThanTolerance()
         {
-            var result = Zero.MoreThan(Constants.Tolerance);
+            var result = Zero.MoreThan(Tolerance);
             Assert.False(result);
         }
 

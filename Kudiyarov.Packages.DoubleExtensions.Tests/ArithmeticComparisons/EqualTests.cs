@@ -1,5 +1,4 @@
-﻿using Kudiyarov.DoubleExtensions.Constants;
-using Xunit;
+﻿using Xunit;
 
 namespace Kudiyarov.Packages.DoubleExtensions.Tests.ArithmeticComparisons
 {
@@ -13,8 +12,8 @@ namespace Kudiyarov.Packages.DoubleExtensions.Tests.ArithmeticComparisons
         }
 
         [Theory]
-        [InlineData(Constants.Tolerance)]
-        [InlineData(-Constants.Tolerance)]
+        [InlineData(Tolerance)]
+        [InlineData(-Tolerance)]
         public void ToleranceEqualZero(double tolerance)
         {
             const double zero = 0;
