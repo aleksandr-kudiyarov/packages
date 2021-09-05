@@ -15,28 +15,28 @@ namespace Kudiyarov.Packages.DoubleExtensions
         public static bool LessThan(this double x, double y)
         {
             var diff = x - y;
-            var result = !LessThanTolerance(diff) && diff < 0;
+            var result = diff < 0 && !LessThanTolerance(diff);
             return result;
         }
 
         public static bool LessThanOrEqual(this double x, double y)
         {
             var diff = x - y;
-            var result = LessThanTolerance(diff) || diff < 0;
+            var result = diff < 0 || LessThanTolerance(diff);
             return result;
         }
 
         public static bool MoreThan(this double x, double y)
         {
             var diff = x - y;
-            var result = !LessThanTolerance(diff) && diff > 0;
+            var result = diff > 0 && !LessThanTolerance(diff);
             return result;
         }
 
         public static bool MoreThanOrEqual(this double x, double y)
         {
             var diff = x - y;
-            var result = LessThanTolerance(diff) || diff > 0;
+            var result = diff > 0 || LessThanTolerance(diff);
             return result;
         }
 
