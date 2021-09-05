@@ -2,6 +2,11 @@
 
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
+        <PackageId>Kudiyarov.Packages.DoubleExtensions.Common</PackageId>
+        <Version>1.0.1</Version>
+        <Authors>Aleksandr Kudiyarov</Authors>
+        <Company>Aleksandr Kudiyarov</Company>
+        <RepositoryUrl>https://github.com/alexander-kudiyarov/packages</RepositoryUrl>
     </PropertyGroup>
 
 </Project>
