@@ -10,14 +10,29 @@ namespace Kudiyarov.Packages.DoubleExtensions.Tests.ArithmeticComparisons
             var result = Add.Equal(Multiply);
             Assert.True(result);
         }
+        
+        [Fact]
+        public void MultiplyEqualAdd()
+        {
+            var result = Add.Equal(Multiply);
+            Assert.True(result);
+        }
 
         [Theory]
         [InlineData(Tolerance)]
         [InlineData(-Tolerance)]
         public void ToleranceEqualZero(double tolerance)
         {
-            const double zero = 0;
-            var result = zero.Equal(tolerance);
+            var result = tolerance.Equal(Zero);
+            Assert.False(result);
+        }
+        
+        [Theory]
+        [InlineData(Tolerance)]
+        [InlineData(-Tolerance)]
+        public void ZeroEqualTolerance(double tolerance)
+        {
+            var result = Zero.Equal(tolerance);
             Assert.False(result);
         }
     }
