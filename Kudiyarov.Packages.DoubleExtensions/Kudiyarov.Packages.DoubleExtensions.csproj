@@ -4,11 +4,6 @@
         <TargetFramework>net6.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
-        <PackageId>Kudiyarov.Packages.DoubleExtensions</PackageId>
-        <Version>1.0.1</Version>
-        <Authors>Aleksandr Kudiyarov</Authors>
-        <Company>Aleksandr Kudiyarov</Company>
-        <RepositoryUrl>https://github.com/alexander-kudiyarov/packages</RepositoryUrl>
     </PropertyGroup>
 
     <ItemGroup>
