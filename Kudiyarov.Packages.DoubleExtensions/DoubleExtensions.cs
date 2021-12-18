@@ -4,7 +4,7 @@ namespace Kudiyarov.Packages.DoubleExtensions;
 
 public static class DoubleExtensions
 {
-    public static bool Equal(this double x, double y)
+    public static bool RelativeEquals(this double x, double y)
     {
         var diff = x - y;
         var result = LessThanTolerance(diff);

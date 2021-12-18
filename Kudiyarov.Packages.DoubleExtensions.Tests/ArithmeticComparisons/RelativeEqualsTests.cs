@@ -2,19 +2,19 @@
 
 namespace Kudiyarov.Packages.DoubleExtensions.Tests.ArithmeticComparisons;
 
-public class EqualTests : BaseArithmeticComparisonsTest
+public class RelativeEqualsTests : BaseArithmeticComparisonsTest
 {
     [Fact]
     public void AddEqualMultiply()
     {
-        var result = Add.Equal(Multiply);
+        var result = Add.RelativeEquals(Multiply);
         Assert.True(result);
     }
 
     [Fact]
     public void MultiplyEqualAdd()
     {
-        var result = Add.Equal(Multiply);
+        var result = Add.RelativeEquals(Multiply);
         Assert.True(result);
     }
 
@@ -23,7 +23,7 @@ public class EqualTests : BaseArithmeticComparisonsTest
     [InlineData(-Tolerance)]
     public void ToleranceEqualZero(double tolerance)
     {
-        var result = tolerance.Equal(Zero);
+        var result = tolerance.RelativeEquals(Zero);
         Assert.False(result);
     }
 
@@ -32,7 +32,7 @@ public class EqualTests : BaseArithmeticComparisonsTest
     [InlineData(-Tolerance)]
     public void ZeroEqualTolerance(double tolerance)
     {
-        var result = Zero.Equal(tolerance);
+        var result = Zero.RelativeEquals(tolerance);
         Assert.False(result);
     }
 }
