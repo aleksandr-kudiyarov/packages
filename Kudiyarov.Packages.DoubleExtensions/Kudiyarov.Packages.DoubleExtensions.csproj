@@ -4,10 +4,15 @@
         <TargetFramework>net6.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
+        <Authors>Aleksandr Kudiyarov</Authors>
+        <Description>A set of extensions for System.Double</Description>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <RepositoryUrl>https://github.com/aleksandr-kudiyarov/packages/tree/main/Kudiyarov.Packages.DoubleExtensions</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\Kudiyarov.Packages.DoubleExtensions.Common\Kudiyarov.Packages.DoubleExtensions.Common.csproj"/>
+        <ProjectReference Include="..\Kudiyarov.Packages.DoubleExtensions.Common\Kudiyarov.Packages.DoubleExtensions.Common.csproj" />
     </ItemGroup>
 
 </Project>

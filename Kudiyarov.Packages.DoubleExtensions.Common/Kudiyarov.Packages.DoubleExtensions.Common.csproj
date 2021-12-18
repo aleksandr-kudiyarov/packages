@@ -4,6 +4,11 @@
         <TargetFramework>net6.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
+        <Authors>Aleksandr Kudiyarov</Authors>
+        <Description>Kudiyarov.Packages.DoubleExtensions dependencies</Description>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <RepositoryUrl>https://github.com/aleksandr-kudiyarov/packages/tree/main/Kudiyarov.Packages.DoubleExtensions.Common</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
     </PropertyGroup>
 
 </Project>
